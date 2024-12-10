@@ -3,7 +3,7 @@ FROM python:3.10-slim
 # Set the working directory in the container
 WORKDIR /app
 # Copy the current directory contents into the container at /app
-COPY calculator.py /app
+COPY d/calculator.py /app
 # Command to run the Python script
 CMD ["python", "calculator.py"]
 
