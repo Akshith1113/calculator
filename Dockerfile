@@ -5,7 +5,7 @@ FROM python:3.10-slim
 WORKDIR /app
 
 # Copy the Python script (calculator.py) from the repository to the /app directory in the container
-COPY src/calculator.py /app
+COPY . .
 
 # Command to run the Python script
 CMD ["python", "calculator.py"]
