@@ -2,7 +2,7 @@
 FROM python:3.10-slim
 
 # Set the working directory in the container
-WORKDIR /D
+WORKDIR /D:\calculator
 
 # Copy the Python script (calculator.py) from the repository to the /app directory in the container
 COPY . .
